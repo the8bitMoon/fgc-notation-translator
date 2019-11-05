@@ -1,0 +1,46 @@
+[
+  {
+    "notation": "41236",
+    "name": "half-circle forward",
+    "abbreviation": "hcf",
+    "img": "../img/hcf.svg"
+  },
+  {
+    "notation": "63214",
+    "name": "half-circle back",
+    "abbreviation": "hcb",
+    "img": "../img/hcf.svg",
+    "reverse": true
+  },
+  {
+    "notation": "236",
+    "name": "quarter-circle forward",
+    "abbreviation": "qcf",
+    "img": "../img/qcf.svg"
+  },
+  {
+    "notation": "214",
+    "name": "quarter-circle back",
+    "abbreviation": "qcb",
+    "img": "../img/qcf.svg",
+    "reverse": true
+  },
+  {
+    "notation": "623",
+    "name": "dragon punch",
+    "abbreviation": "dp",
+    "img": "../img/dpf.svg"
+  },
+  {
+    "notation": "421",
+    "name": "back dragon punch",
+    "abbreviation": "bdp",
+    "img": "../img/dpf.svg",
+    "reverse": true
+  },
+  {
+    "notation": "5",
+    "name": "neutral",
+    "descriptor": "standing"
+  }
+]

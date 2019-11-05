@@ -5,6 +5,7 @@ export default function Body(props) {
     <div className="Body">
       App body.
       <p>{props.notation}</p>
+      
     </div>
   )
 }

@@ -13,6 +13,12 @@ class App extends Component {
       notation: '5A > 5B > 5C > 236A',
       textOutput: ''
     }
+
+    this.onInput = this.onInput.bind(this);
+  }
+
+  onInput(event) {
+    const rawInput = event.target.value;
   }
 
   render() {
@@ -24,6 +30,7 @@ class App extends Component {
           combo={this.state.combo}
           notation={this.state.notation}
           textOuput={this.state.textOutput}
+          onInput={this.onInput}
         />
       </div>
     )
