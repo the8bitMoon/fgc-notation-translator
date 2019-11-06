@@ -24,14 +24,16 @@ class App extends Component {
   render() {
     return(
       <div className="App">
-        App will go here.
-        <Body
+        <header className="App-header">
+          <h1>Under construction!</h1>
+        </header>
+          {/* <Body
           map={this.state.map}
           combo={this.state.combo}
           notation={this.state.notation}
           textOuput={this.state.textOutput}
           onInput={this.onInput}
-        />
+        /> */}
       </div>
     )
   }
