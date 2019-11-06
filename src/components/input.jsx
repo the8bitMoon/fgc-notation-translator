@@ -6,7 +6,7 @@ export default function Input(props) {
       <textarea
         placeholder="5A > 5B > 5C > 236A"
         value={props.notation}
-        // className="Input-text"
+        className="Text"
       />
     </div>
   )

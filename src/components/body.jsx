@@ -1,5 +1,6 @@
 import React from 'react';
 import Input from './input.jsx';
+import Translation from './translation.jsx';
 
 export default function Body(props) {
   return(
@@ -7,9 +8,12 @@ export default function Body(props) {
       App body.
       {/* <p>{props.notation}</p> */}
       <div className="Columns">
-        <Input notation={props.notation}
+        <Input
+          notation={props.notation}
         />
-      </div>
+        <Translation
+        />
+          </div>
     </div>
   )
 }

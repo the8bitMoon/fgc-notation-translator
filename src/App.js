@@ -25,7 +25,7 @@ class App extends Component {
     return(
       <div className="App">
         {/* <header className="App-header">
-          <h1>FGC Notation Translator Under construction!</h1>
+          <h1>FGC Notation Translator Under Construction!</h1>
         </header> */}
         <Body
           map={this.state.map}

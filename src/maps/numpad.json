@@ -1,46 +1,121 @@
 [
   {
-    "notation": "41236",
-    "name": "half-circle forward",
-    "abbreviation": "hcf",
-    "img": "../img/hcf.svg"
+    "category": "cancels",
+    "notations": [
+      {
+        "notation": ">",
+        "name": "cancel",
+        "bullet": "⇒",
+        "tab-level": 1,
+        "desc": "Cancel into the next command. before the recovery animation of the current command."
+      },
+      {
+        "notation": ",",
+        "name": "follow-up",
+        "bullet": "⇀",
+        "tab-level": 1,
+        "desc": "Perform the next command after the recovery animation of the current command."
+      },
+      {
+        "notation": "->",
+        "name": "follow-up",
+        "bullet": "⇒",
+        "tab-level": 2,
+        "desc": "Perform a follow up command."
+      },
+      {
+        "notation": "~",
+        "name": "immedate",
+        "bullet": "~",
+        "tab-level": 2,
+        "desc": "Immediately perform the next command, without completing the previous command."
+      },
+      {
+        "notation": "|>",
+        "name": "landing cancel",
+        "bullet": "▷",
+        "tab-level": 2,
+        "desc": "Perform this command after landing from your jump."
+      },
+      {
+        "notation": "^",
+        "name": "homing jump",
+        "bullet": "^",
+        "tab-level": 2,
+        "desc": "Use a homing jump follow up."
+      }
+    ]
   },
   {
-    "notation": "63214",
-    "name": "half-circle back",
-    "abbreviation": "hcb",
-    "img": "../img/hcf.svg",
-    "reverse": true
+    "category": "motions",
+    "notations": [
+      {
+        "notation": "41236",
+        "name": "half-circle forward",
+        "abbreviation": "hcf",
+        "img": "../img/hcf.svg",
+        "desc": "Perform a half circle motion on your stick or pad, starting at the back."
+      },
+      {
+        "notation": "63214",
+        "name": "half-circle back",
+        "abbreviation": "hcb",
+        "img": "../img/hcf.svg",
+        "reverse": true,
+        "desc": "Perform a half circle motion on your stick or pad, starting at the front."
+      },
+      {
+        "notation": "236",
+        "name": "quarter-circle forward",
+        "abbreviation": "qcf",
+        "img": "../img/qcf.svg",
+        "desc": "Perform a quarter circle motion towards the front on your stick or pad, starting at the bottom."
+      },
+      {
+        "notation": "214",
+        "name": "quarter-circle back",
+        "abbreviation": "qcb",
+        "img": "../img/qcf.svg",
+        "reverse": true,
+        "desc": "Perform a quarter circle motion towards the back on your stick or pad, starting at the bottom."
+      },
+      {
+        "notation": "623",
+        "name": "dragon punch",
+        "abbreviation": "dp",
+        "img": "../img/dpf.svg",
+        "desc": "Perform the following motion: forward, down, then down-forward."
+      },
+      {
+        "notation": "421",
+        "name": "back dragon punch",
+        "abbreviation": "bdp",
+        "img": "../img/dpf.svg",
+        "reverse": true,
+        "desc": "Perform the following motion: back, down, then down-back."
+      },
+      {
+        "notation": "66",
+        "name": "dash",
+        "alts": ["run"],
+        "desc": "Dash forwards towards the oponent."
+      },
+      {
+        "notation": "44",
+        "name": "backdash",
+        "desc": "Dash back away the oponent."
+      }
+    ]
   },
   {
-    "notation": "236",
-    "name": "quarter-circle forward",
-    "abbreviation": "qcf",
-    "img": "../img/qcf.svg"
-  },
-  {
-    "notation": "214",
-    "name": "quarter-circle back",
-    "abbreviation": "qcb",
-    "img": "../img/qcf.svg",
-    "reverse": true
-  },
-  {
-    "notation": "623",
-    "name": "dragon punch",
-    "abbreviation": "dp",
-    "img": "../img/dpf.svg"
-  },
-  {
-    "notation": "421",
-    "name": "back dragon punch",
-    "abbreviation": "bdp",
-    "img": "../img/dpf.svg",
-    "reverse": true
-  },
-  {
-    "notation": "5",
-    "name": "neutral",
-    "descriptor": "standing"
+    "category": "directions",
+    "notations": [
+      {
+        "notation": "5",
+        "name": "neutral",
+        "descriptor": "standing",
+        "desc": "Keep the stick or d-pad at neutral position."
+      }
+    ]
   }
 ]
