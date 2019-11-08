@@ -5,7 +5,6 @@ import Translation from './translation.jsx';
 export default function Body(props) {
   return(
     <div className="Body">
-      App body.
       {/* <p>{props.notation}</p> */}
       <div className="Columns">
         <Input

@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Body from './components/body.jsx';
+import * as data from './maps/numpad.json';
+import buildPattern from './helpers/buildPattern.js';
+import splitText from './helpers/splitText';
+import buildCombo from './helpers/buildCombo';
 
 class App extends Component {
   constructor() {
@@ -10,7 +14,7 @@ class App extends Component {
       page: 'main',
       map: '',
       combo: [],
-      notation: '',
+      notation: '5A > 5B > 5C > 236A -> 236B',
       textOutput: ''
     }
 
@@ -22,6 +26,11 @@ class App extends Component {
   }
 
   render() {
+    const { notation } = this.state;
+    const lineSplitPattern = buildPattern(data.cancels);
+    const splitLines = splitText(notation, lineSplitPattern);
+    console.log(splitLines);
+    const combo = buildCombo(splitLines, data);
     return(
       <div className="App">
         {/* <header className="App-header">

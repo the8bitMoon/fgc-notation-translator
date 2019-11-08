@@ -61,15 +61,23 @@
 }
 
 .Text {
+  text-align: left;
   resize: none;
   font-family: inherit;
   flex: 1 1 0;
   border: var(--border-style);
   padding: 1rem;
+  color: inherit;
 }
 
 .Text:focus {
   border-color: var(--hightlight-color);
+}
+
+.Text::placeholder {
+  color: var(--accent-color);
+  font-style: italic;
+  opacity: 1;
 }
 
 @media only screen and (min-width: 700px) {
